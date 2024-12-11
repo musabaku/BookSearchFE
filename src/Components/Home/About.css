@@ -1,0 +1,60 @@
+/* About Page Styles */
+.about-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about-header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #ab45ff;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.about-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.about-section ul li strong {
+    color: #b300ff;
+}
+
+.about-section ul li em {
+    font-style: italic;
+    color: #555;
+}

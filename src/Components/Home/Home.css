@@ -1,0 +1,54 @@
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('https://img.freepik.com/premium-photo/library-building-room-containing-collections-ai-generated_866663-6302.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+}
+.hero-section h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f0ff1d;
+}
+/* Button Container Styles */
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cta-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(251, 255, 138);
+    background-color: #4400a3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Section Styles */
+.featured-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.featured-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

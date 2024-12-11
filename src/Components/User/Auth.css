@@ -1,0 +1,81 @@
+.boxAuth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #7e7882, #f9f9f9);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .authForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    max-width: 400px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #510098;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .inputUser {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #6c04ad;
+  }
+  
+  .inputButton {
+    text-align: center;
+  }
+  
+  .userButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c04ad;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .userButton:hover {
+    background-color: #4b0082;
+  }
+  
+  .userButton:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(108, 4, 173, 0.5);
+  }
+  
