@@ -12,6 +12,7 @@ const UserFavourite = () => {
     const fetchAllFavourites = async () => {
       try {
         const token = localStorage.getItem('authToken');
+        console.log(token);
         const response = await axios.get(
           // 'https://localhost:7192/api/Favourite/favourites/allfavourite',
           'https://booksearch-p2fm.onrender.com/api/Favourite/favourites/allfavourite',
