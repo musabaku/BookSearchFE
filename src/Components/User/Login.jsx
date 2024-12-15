@@ -18,7 +18,8 @@ const Login = () => {
             setError("Both fields are required")
         }
         const response = await axios.post(
-          'https://localhost:7192/api/Auth/login',
+          'https://booksearch-p2fm.onrender.com/api/Auth/login',
+          // 'https://localhost:7192/api/Auth/login',
 
           { UserName: name, Password: password },
           {
@@ -45,7 +46,7 @@ const Login = () => {
   <NavBar />
     <div className='boxAuth'>
 
-      <h1>Please provide details below to Login to your account</h1>
+      <h1>*************Enter Your Login Details!!*************</h1>
       <div></div>
       <form onSubmit={handleSubmit} className='authForm'>
         <div className='inputUser'>

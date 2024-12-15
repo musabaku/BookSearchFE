@@ -18,7 +18,8 @@ const Register = () => {
             setError("Both fields are required")
         }
         const response = await axios.post(
-          'https://localhost:7192/api/Auth/register',
+          'https://booksearch-p2fm.onrender.com/api/Auth/register',
+          // 'https://localhost:7192/api/Auth/register',
           { UserName: name, Password: password },
           {
             headers: {
