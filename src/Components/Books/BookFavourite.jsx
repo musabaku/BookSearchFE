@@ -1,8 +1,11 @@
 import React from 'react';
 import axios from 'axios';
 import './BookFavourite.css'; // Add a CSS file for styles
+import { useNavigate } from 'react-router-dom';
 
 const BookFavourite = ({ book }) => {
+    const navigate = useNavigate();
+
   const deleteFavourite = async (event) => {
     const token = localStorage.getItem('authToken');
     event.preventDefault();
@@ -22,7 +25,7 @@ const BookFavourite = ({ book }) => {
       console.error('Error deleting favourite:', error);
     }
     alert("Favourite deleted!");
-      window.location.reload(); 
+  navigate('/favourite')
   };
 
   return (
