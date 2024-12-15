@@ -26,7 +26,10 @@ const BookFavourite = ({ book }) => {
     }
     alert("Favourite deleted! Wait 3 seconds to see updated page");
  navigate('/');
-  navigate('/favourite')
+  setTimeout(() => {
+      navigate('/favourite');
+    }, 100);
+
   };
 
   return (
