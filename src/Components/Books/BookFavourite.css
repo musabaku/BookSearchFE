@@ -1,0 +1,70 @@
+.bookCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 15px;
+}
+
+.bookCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bookImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 3px solid #f2f2f2;
+  transition: transform 0.3s ease;
+}
+
+.bookImage:hover {
+  transform: scale(1.05);
+}
+
+.bookDetails {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.bookTitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.bookAuthor, .bookDate {
+  font-size: 1rem;
+  color: #777;
+  margin: 4px 0;
+}
+
+.deleteFavButton {
+  /* background-color: #ff4b5c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: auto; */
+
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color:antiquewhite;
+  cursor: pointer;
+}
+
+.deleteFavButton:hover {
+  background-color: #d93c4e;
+  transform: scale(1.05);
+}

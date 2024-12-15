@@ -1,0 +1,36 @@
+.userFavourite {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f6f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+}
+
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.noBooks {
+  text-align: center;
+  color: #777;
+  font-size: 1.2rem;
+  font-style: italic;
+}
