@@ -24,7 +24,8 @@ const BookFavourite = ({ book }) => {
     } catch (error) {
       console.error('Error deleting favourite:', error);
     }
-    alert("Favourite deleted!");
+    alert("Favourite deleted! Wait 3 seconds to see updated page");
+ navigate('/');
   navigate('/favourite')
   };
 
