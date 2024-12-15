@@ -36,7 +36,7 @@ const BookItem = ({ book }) => {
             </div>
             <div className="book-details">
                 <h3>{book.volumeInfo.title}</h3>
-                <p>Author: {book.volumeInfo.authors}</p>
+                <p>Author: {book.volumeInfo.firstAuthor}</p>
                 <p>Published: {book.volumeInfo.publishedDate || "Unknown"}</p>
                 <button onClick={addFavourite} className="favourite-button">
                     Add to Favourites
