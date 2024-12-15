@@ -9,7 +9,8 @@ const BookFavourite = ({ book }) => {
     try {
       console.log(book.googleBookId);
       const response = await axios.delete(
-        `https://localhost:7192/api/Favourite/favourites/deletefavourite/${book.googleBookId}`,
+        `https://booksearch-p2fm.onrender.com/api/Favourite/favourites/deletefavourite/${book.googleBookId}`,
+        // `https://localhost:7192/api/Favourite/favourites/deletefavourite/${book.googleBookId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
