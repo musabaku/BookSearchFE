@@ -27,7 +27,9 @@ const Register = () => {
             },
           }
         );
-        console.log('Registern Successful:', response.data);
+        console.log('Registered Successful:', response.data);
+          alert("Registered Successfully, You will be redirected to login in 3 seconds");
+
         navigate('/login')
 
     } catch (error) {
